@@ -1,6 +1,8 @@
 // FAQ.js
 
 import React from "react";
+import FAQcard from "./FAQcard";
+import content from "../utils/FAQ-content";
 
 const FAQ = () => {
   return (
