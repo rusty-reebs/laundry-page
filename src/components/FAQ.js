@@ -9,7 +9,17 @@ const FAQ = () => {
     <div>
       <h1>Frequently Asked Questions</h1>
       <div className="flex">
-        <div>{/* FAQ card component */}</div>
+        <div>
+          {content.map((faq) => {
+            return (
+              <FAQcard
+                key={faq.title}
+                title={faq.title}
+                content={faq.content}
+              />
+            );
+          })}
+        </div>
       </div>
     </div>
   );
