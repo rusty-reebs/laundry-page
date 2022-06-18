@@ -2,9 +2,8 @@
 
 import React from "react";
 import FAQcard from "./FAQcard";
-import content from "../utils/FAQ-content";
 
-const FAQ = () => {
+const FAQ = ({ content }) => {
   return (
     <div>
       <h1>Frequently Asked Questions</h1>

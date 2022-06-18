@@ -8,17 +8,18 @@ import Amenities from "./components/Amenities";
 import Testimonials from "./components/Testimonials";
 import FAQ from "./components/FAQ";
 import Contact from "./components/Contact";
+import content from "./utils/content";
 
 const App = () => {
   return (
     <div>
       <Home />
       <Nav />
-      <Services />
+      <Services content={content.services} />
       <Amenities />
       <Testimonials />
-      <FAQ />
-      <Contact />
+      <FAQ content={content.faq} />
+      <Contact content={content.contact} />
     </div>
   );
 };

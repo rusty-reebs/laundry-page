@@ -2,8 +2,17 @@
 
 import React from "react";
 
-const Services = () => {
-  return <div></div>;
+const Services = ({ content }) => {
+  return (
+    <div className="flex flex-col gap-y-5 lg:flex-row lg:gap-x-5">
+      {content.map((service) => (
+        <div key={service.title} className="flex">
+          <h3>{service.title}</h3>
+          <p>{service.description}</p>
+        </div>
+      ))}
+    </div>
+  );
 };
 
 export default Services;
