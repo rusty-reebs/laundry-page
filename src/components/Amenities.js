@@ -9,7 +9,7 @@ const Amenities = ({ content }) => {
         We are on a mission to change the laundromat experience
       </h1>
       <p>Here's what we offer:</p>
-      <div className="flex flex-col lg:flex-row">
+      <div className="flex flex-col lg:flex-row lg:gap-x-8">
         {content.map((amenity) => (
           <div key={amenity.title} className="flex flex-col">
             <img src={amenity.icon} alt="icon" height={30} />
