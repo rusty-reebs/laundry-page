@@ -100,6 +100,42 @@ const content = {
       title: "Free Wi-Fi",
       icon: "/src/img/wifi.svg",
     },
+    {
+      title: "Air Conditioning",
+      icon: "/src/img/wifi.svg",
+    },
+    {
+      title: "Comfortable Seating",
+      icon: "/src/img/wifi.svg",
+    },
+    {
+      title: "Cafe Table",
+      icon: "/src/img/wifi.svg",
+    },
+    {
+      title: "Charging Stations",
+      icon: "/src/img/wifi.svg",
+    },
+    {
+      title: '5 HD 55" TVs',
+      icon: "/src/img/wifi.svg",
+    },
+    {
+      title: "35 Hi Tech Machines",
+      icon: "/src/img/wifi.svg",
+    },
+    {
+      title: "Kids Zone with iPads",
+      icon: "/src/img/wifi.svg",
+    },
+    {
+      title: "On Site Attendant",
+      icon: "/src/img/wifi.svg",
+    },
+    {
+      title: "Security Cameras",
+      icon: "/src/img/wifi.svg",
+    },
   ],
 };
 
