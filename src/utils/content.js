@@ -5,7 +5,7 @@ const content = {
     {
       title: "Coin and Coinless Machines",
       description:
-        "Our environmentally friendly Huebsch(c) machines use less water and dry faster so you are done fast! You can pay with coins, the Upstate Laundromat loyalty card, Visa, or Mastercard.",
+        "Our environmentally friendly Huebsch&copy; machines use less water and dry faster so you are done fast! You can pay with coins, the Upstate Laundromat loyalty card, Visa, or Mastercard.",
     },
     {
       title: "Fluff and Fold Service Available",
