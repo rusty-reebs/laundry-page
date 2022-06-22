@@ -12,7 +12,7 @@ import content from "./utils/content";
 
 const App = () => {
   return (
-    <div>
+    <div className="w-screen">
       <Home />
       <Nav />
       <Services content={content.services} />
