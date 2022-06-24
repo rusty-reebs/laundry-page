@@ -1,5 +1,7 @@
 // content.js
 
+import { ReactComponent as wifi } from "../img/wifi.svg";
+
 const content = {
   services: [
     {
@@ -98,7 +100,7 @@ const content = {
   amenities: [
     {
       title: "Free Wi-Fi",
-      icon: "/src/img/wifi.svg",
+      icon: wifi,
     },
     {
       title: "Air Conditioning",
