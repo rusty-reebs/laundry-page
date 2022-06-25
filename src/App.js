@@ -1,6 +1,7 @@
 // App.js
 
 import React from "react";
+import { MantineProvider } from "@mantine/core";
 import Home from "./components/Home";
 import Nav from "./components/Nav";
 import Services from "./components/Services";
@@ -12,15 +13,21 @@ import content from "./utils/content";
 
 const App = () => {
   return (
-    <div className="font-Karla w-screen">
-      <Home />
-      <Nav />
-      <Services content={content.services} />
-      <Amenities content={content.amenities} />
-      <Testimonials />
-      <FAQ content={content.faq} />
-      <Contact content={content.contact} />
-    </div>
+    <MantineProvider
+      theme={{
+        fontFamily: ["Karla", "sans-serif"],
+      }}
+    >
+      <div className="font-Karla w-screen">
+        <Home />
+        <Nav />
+        <Services content={content.services} />
+        <Amenities content={content.amenities} />
+        <Testimonials />
+        <FAQ content={content.faq} />
+        <Contact content={content.contact} />
+      </div>
+    </MantineProvider>
   );
 };
 
