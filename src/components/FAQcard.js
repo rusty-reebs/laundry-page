@@ -1,6 +1,5 @@
 // FAQcard.js
 
-import React, { useState } from "react";
 import { Accordion } from "@mantine/core";
 
 const FAQcard = ({ title, content }) => {
