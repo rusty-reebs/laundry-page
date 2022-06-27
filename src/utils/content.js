@@ -1,5 +1,4 @@
 // content.js
-
 import { ReactComponent as wifi } from "../img/wifi.svg";
 
 const content = {

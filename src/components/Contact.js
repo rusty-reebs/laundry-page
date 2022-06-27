@@ -1,18 +1,18 @@
 // Contact.js
 
 import React from "react";
-import { ReactComponent as Facebook } from "../img/facebook.svg";
+import { ReactComponent as FacebookIcon } from "../img/facebook.svg";
 
 const Contact = ({ content }) => {
   console.log(content);
   return (
-    <div className="flex flex-col lg:flex-row">
+    <div className="flex flex-col mt-10 lg:flex-row lg:mx-52">
       <div className="flex flex-col">
-        <h1>Contact</h1>
-        <Facebook className="h-8 w-8" />
+        <h1 className="text-3xl">Contact</h1>
+        <FacebookIcon className="h-10 w-10 my-4" />
         {content.map(({ title, detail }) => (
-          <div key={title}>
-            <h2>{title}</h2>
+          <div key={title} className="flex flex-col gap-y-5">
+            <h2 className="font-bold">{title.toUpperCase()}</h2>
             <p>{detail}</p>
           </div>
         ))}
