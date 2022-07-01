@@ -19,8 +19,8 @@ const App = () => {
       }}
     >
       <div className="font-Karla w-screen">
-        <Home />
         <Nav />
+        <Home />
         <Services content={content.services} />
         <Amenities content={content.amenities} />
         <Testimonials />
