@@ -1,16 +1,18 @@
 // Nav.js
 
+import { ReactComponent as HomeIcon } from "../img/home.svg";
+import logo from "../img/bubbles-suds.png";
 import React from "react";
 
 const Nav = () => {
   return (
-    <div className="flex flex-row justify-center absolute top-10 left-1/2">
+    <div className="flex flex-row justify-center gap-x-12">
       <a href="/#" className="">
-        Home
+        <HomeIcon className="h-4" />
       </a>
       <a href="/#">Services</a>
       <a href="/#">Amenities</a>
-      <p>Logo</p>
+      <img src={logo} alt="logo" className="h-52 w-52 rounded-full" />
       <a href="/#">Testimonials</a>
       <a href="/#">FAQ</a>
       <a href="/#">Contact</a>
