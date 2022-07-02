@@ -18,7 +18,7 @@ const App = () => {
         fontFamily: ["Karla", "sans-serif"],
       }}
     >
-      <div className="font-Karla w-screen">
+      <div className="font-Karla w-screen flex lg:flex-col">
         <Nav />
         <Home />
         <Services content={content.services} />
