@@ -6,7 +6,7 @@ import React from "react";
 
 const FAQ = ({ content }) => {
   return (
-    <div className="flex flex-col">
+    <div id="faq" className="flex flex-col">
       <h1 className="mx-auto text-3xl">Frequently Asked Questions</h1>
       <div className="flex flex-col mt-10 lg:grid lg:grid-cols-2 lg:mx-40">
         <Accordion multiple>
