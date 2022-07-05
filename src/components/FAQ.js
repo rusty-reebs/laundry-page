@@ -8,8 +8,12 @@ const FAQ = ({ content }) => {
   return (
     <div id="faq" className="flex flex-col">
       <h1 className="mx-auto text-3xl">Frequently Asked Questions</h1>
-      <div className="flex flex-col mt-10 lg:grid lg:grid-cols-2 lg:mx-40">
-        <Accordion multiple>
+      {/* <div className="flex flex-col mt-10 lg:grid lg:grid-cols-2 lg:grid-rows-6 lg:mx-40"> */}
+      <div>
+        <Accordion
+          multiple
+          className="flex flex-col mt-10 lg:grid lg:grid-cols-2 lg:grid-rows-6 lg:mx-40"
+        >
           {content.map((faq) => (
             <Accordion.Item key={faq.title} label={faq.title}>
               {faq.content}
