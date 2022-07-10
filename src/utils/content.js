@@ -1,5 +1,17 @@
 // content.js
-import { ReactComponent as wifi } from "../img/wifi.svg";
+// import { ReactComponent as wifi } from "../img/wifi.svg";
+import wifi from "../img/wifi.svg";
+import snowflake from "../img/snowflake.svg";
+import chair from "../img/chair.svg";
+import table from "../img/table.svg";
+import charging from "../img/phone-charging.svg";
+import tv from "../img/tv.svg";
+import washingMachine from "../img/washing-machine.svg";
+import ipad from "../img/tablet.svg";
+import security from "../img/security-camera.svg";
+import attendant from "../img/attendant.svg";
+import shirt from "../img/shirt.svg";
+import cards from "../img/credit-cards-svgrepo-com.svg";
 
 const content = {
   services: [
@@ -7,16 +19,19 @@ const content = {
       title: "Coin and Coinless Machines",
       description:
         "Our environmentally friendly Huebsch&copy; machines use less water and dry faster so you are done fast! You can pay with coins, the Upstate Laundromat loyalty card, Visa, or Mastercard.",
+      icon: washingMachine,
     },
     {
       title: "Fluff and Fold Service Available",
       description:
         "Don’t waste valuable time doing your own laundry. Let us handle it for you! Offered 7 days a week, same day or next day available. We will notify you when your laundry is done via text.",
+      icon: shirt,
     },
     {
       title: "Loyalty Discounts",
       description:
         "Use your Upstate Laundromat personal loyalty card to earn special discounts over time. Make sure to register your card by clicking here or by downloading the Fascard Mobile app.",
+      icon: cards,
     },
   ],
   faq: [
@@ -101,39 +116,39 @@ const content = {
     },
     {
       title: "Air Conditioning",
-      icon: "/src/img/wifi.svg",
+      icon: snowflake,
     },
     {
       title: "Comfortable Seating",
-      icon: "/src/img/wifi.svg",
+      icon: chair,
     },
     {
       title: "Cafe Table",
-      icon: "/src/img/wifi.svg",
+      icon: table,
     },
     {
       title: "Charging Stations",
-      icon: "/src/img/wifi.svg",
+      icon: charging,
     },
     {
       title: '5 HD 55" TVs',
-      icon: "/src/img/wifi.svg",
+      icon: tv,
     },
     {
       title: "35 Hi Tech Machines",
-      icon: "/src/img/wifi.svg",
+      icon: washingMachine,
     },
     {
       title: "Kids Zone with iPads",
-      icon: "/src/img/wifi.svg",
+      icon: ipad,
     },
     {
       title: "On Site Attendant",
-      icon: "/src/img/wifi.svg",
+      icon: attendant,
     },
     {
       title: "Security Cameras",
-      icon: "/src/img/wifi.svg",
+      icon: security,
     },
   ],
 };
