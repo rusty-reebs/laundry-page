@@ -24,7 +24,10 @@ const App = () => {
         <Services content={content.services} />
         <Amenities content={content.amenities} />
         <Testimonials />
-        <FAQ content={content.faq} />
+        <FAQ
+          contentFirst={content.faqFirst}
+          contentSecond={content.faqSecond}
+        />
         <Contact content={content.contact} />
       </div>
     </MantineProvider>

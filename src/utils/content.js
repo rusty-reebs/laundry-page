@@ -1,5 +1,7 @@
 // content.js
+
 // import { ReactComponent as wifi } from "../img/wifi.svg";
+import React from "react";
 import wifi from "../img/wifi.svg";
 import snowflake from "../img/snowflake.svg";
 import chair from "../img/chair.svg";
@@ -12,6 +14,15 @@ import security from "../img/security-camera.svg";
 import attendant from "../img/attendant.svg";
 import shirt from "../img/shirt.svg";
 import cards from "../img/credit-cards-svgrepo-com.svg";
+
+const fascardLink = () => {
+  let a = document.createElement("a");
+  let link = document.createTextNode("here");
+  a.appendChild(link);
+  a.title = "Hi";
+  a.href = "rustys.dev";
+  return a;
+};
 
 const content = {
   services: [
@@ -34,7 +45,7 @@ const content = {
       icon: cards,
     },
   ],
-  faq: [
+  faqFirst: [
     {
       title: "What are your hours?",
       content: "We're open 7 days/week from 7am to 10pm.",
@@ -56,14 +67,16 @@ const content = {
     },
     {
       title: "How do I add money to the card?",
-      content:
-        "You can add money to your card using cash, VISA or MasterCard at the VTM (Value Transfer Machine) next to the office. Please see the attendant if you need any assistance with your transaction. You can also register your card with Fascard by clicking *here* or by downloading the Fascard Mobile Apple with Apple & Android)",
+      content: `You can add money to your card using cash, VISA or MasterCard at the VTM (Value Transfer Machine) next to the office. Please see the attendant if you need any assistance with your transaction. You can also register your card with Fascard by clicking
+          ${fascardLink()} or by downloading the Fascard Mobile App with Apple & Android)`,
     },
     {
       title: "Is my laundry card reusable/reloadable?",
       content:
         "Yes, the card will retain any unused balance for future visits and can be reused and reloaded as often as needed. You can reload your Fascard by clicking *here* or download their app in your devices app store.",
     },
+  ],
+  faqSecond: [
     {
       title: "How do I register my laundry card?",
       content:
