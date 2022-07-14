@@ -4,7 +4,7 @@ import React from "react";
 
 const Amenities = ({ content }) => {
   return (
-    <div className="flex flex-col lg:h-screen">
+    <div className="flex flex-col pt-40">
       <h1 className="py-5 mx-auto text-3xl">
         We are on a mission to change the laundromat experience.
       </h1>

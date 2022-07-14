@@ -6,7 +6,7 @@ import React from "react";
 
 const FAQ = ({ contentFirst, contentSecond }) => {
   return (
-    <div id="faq" className="flex flex-col">
+    <div id="faq" className="flex flex-col pt-40">
       <h1 className="mx-auto text-3xl">Frequently Asked Questions</h1>
       <div className="flex flex-col lg:flex-row lg:gap-x-10 lg:justify-between mt-10 lg:mx-52">
         <div className="w-1/2">

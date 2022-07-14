@@ -6,7 +6,7 @@ import { ReactComponent as FacebookIcon } from "../img/facebook.svg";
 const Contact = ({ content }) => {
   console.log(content);
   return (
-    <div className="flex flex-col mt-10 pb-20 lg:flex-row lg:mx-52">
+    <div className="flex flex-col mt-10 pt-40 pb-20 lg:flex-row lg:mx-52">
       <div className="flex flex-col">
         <h1 className="text-3xl">Contact</h1>
         <FacebookIcon className="h-10 w-10 my-4" />
