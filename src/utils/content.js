@@ -1,7 +1,5 @@
 // content.js
 
-// import { ReactComponent as wifi } from "../img/wifi.svg";
-import React from "react";
 import wifi from "../img/wifi.svg";
 import snowflake from "../img/snowflake.svg";
 import chair from "../img/chair.svg";
@@ -14,6 +12,8 @@ import security from "../img/security-camera.svg";
 import attendant from "../img/attendant.svg";
 import shirt from "../img/shirt.svg";
 import cards from "../img/credit-cards-svgrepo-com.svg";
+import pin from "../img/pin.svg";
+import schedule from "../img/schedule.svg";
 
 const fascardLink = () => {
   let a = document.createElement("a");
@@ -112,10 +112,12 @@ const content = {
     {
       title: "Location",
       detail: "2600 Anderson Road\\n Greenville, SC 29611",
+      icon: pin,
     },
     {
       title: "Hours",
       detail: "Open every day from 8am to 10 pm\\n (Last wash at 9pm)",
+      icon: schedule,
     },
     {
       title: "Email",

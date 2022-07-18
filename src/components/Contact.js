@@ -11,9 +11,13 @@ const Contact = ({ content }) => {
         <h1 className="text-3xl">Contact</h1>
         <FacebookIcon className="h-10 w-10 my-4" />
         <div className="flex flex-col gap-y-20">
-          {content.map(({ title, detail }) => (
+          {content.map(({ title, detail, icon }) => (
             <div key={title} className="flex flex-col">
-              <h2 className="font-bold">{title.toUpperCase()}</h2>
+              <h2 className="font-bold">
+                <img src={icon} className="inline h-5 mr-2" alt={title} />
+
+                {title.toUpperCase()}
+              </h2>
               <p>{detail}</p>
             </div>
           ))}
