@@ -15,7 +15,6 @@ const FAQ = ({ contentFirst, contentSecond }) => {
               <Accordion.Item key={faq.title} label={faq.title}>
                 {faq.content}
               </Accordion.Item>
-              // <FAQcard key={faq.title} title={faq.title} content={faq.content} />
             ))}
           </Accordion>
         </div>
@@ -25,7 +24,6 @@ const FAQ = ({ contentFirst, contentSecond }) => {
               <Accordion.Item key={faq.title} label={faq.title}>
                 {faq.content}
               </Accordion.Item>
-              // <FAQcard key={faq.title} title={faq.title} content={faq.content} />
             ))}
           </Accordion>
         </div>
