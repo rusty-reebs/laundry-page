@@ -2,7 +2,6 @@
 
 import { Accordion } from "@mantine/core";
 import React from "react";
-// import FAQcard from "./FAQcard";
 
 const FAQ = ({ contentFirst, contentSecond }) => {
   return (
