@@ -14,6 +14,7 @@ import shirt from "../img/shirt.svg";
 import cards from "../img/credit-cards-svgrepo-com.svg";
 import pin from "../img/pin.svg";
 import schedule from "../img/schedule.svg";
+import email from "../img/email.svg";
 
 const fascardLink = () => {
   let a = document.createElement("a");
@@ -122,6 +123,7 @@ const content = {
     {
       title: "Email",
       detail: "info@upstatelaundromat.com",
+      icon: email,
     },
   ],
   amenities: [
