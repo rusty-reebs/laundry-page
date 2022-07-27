@@ -10,6 +10,7 @@ const Home = () => {
         <p>MODERN AND UPSCALE LAUNDROMAT</p>
         <h1>A Better Place to do Your Laundry</h1>
         <h2>May be the best place to do your laundry, actually.</h2>
+        <h2>Come visit us today!</h2>
         <button className="bg-gray-200 p-2">VIEW LOCATION</button>
       </div>
       <img src={laundryPhoto} alt="cover" className="h-2/3 rounded-lg" />
