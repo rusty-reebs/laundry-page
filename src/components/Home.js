@@ -15,6 +15,7 @@ const Home = () => {
         <h3>Serving the region proudly since 1987.</h3>
         <h3>Drop by and experience the feeling of CLEAN laundry!</h3>
         <h3>Thank you for your business.</h3>
+        <h3>We are always working to serve you better.</h3>
         <button className="bg-gray-200 p-2">VIEW LOCATION</button>
       </div>
       <img src={laundryPhoto} alt="cover" className="h-2/3 rounded-lg" />
