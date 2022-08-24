@@ -14,6 +14,8 @@ const Home = () => {
         <h2>Serving the local area since 1999</h2>
         <h2>Ask us about our weekly specials!</h2>
         <h2>We value your loyalty, thank you for being our customer.</h2>
+        <h2>Super upscale environment.</h2>
+        <h2>Coming Soon - espresso machine!</h2>
         <button className="bg-gray-200 p-2">VIEW LOCATION</button>
       </div>
       <img src={laundryPhoto} alt="cover" className="h-2/3 rounded-lg" />
